@@ -1,0 +1,335 @@
+/*
+===========
+GLOBLE STYLE
+=========
+*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+body{
+	font-family: 'Dosis', sans-serif;
+}
+ h1{
+font-size: 3em;
+}
+h3{
+	font-size: 2em;
+}
+h5{
+	font-size: 1em;
+}
+/*
+=============
+hero section
+============
+*/
+.hero{
+	background: linear-gradient(to bottom right, #2196F3, #009688);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	color: #fff;
+}
+.menu{
+	width: 100%;
+	background-color: yellow;
+	height: 40px;
+}
+.menu ul{
+	text-align: center;
+}
+.menu ul li{
+	list-style: none;
+	display: inline;
+}
+.menu ul li a{
+	text-decoration: none;
+	display: inline-block;
+	line-height: 40px;
+	padding: 0px 15px 0 15px;
+}
+
+/*
+===========
+Services Section
+========
+*/
+
+.services{
+	text-align: center;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: hsl(0, 0%, 95%);
+}
+.col-wrapper{
+	padding-top: 50px;
+    margin: auto;
+    width: 90%;
+}
+.services-col{
+	width: 33.33%;
+	float: left;
+	padding: 10px 30px 10px 30px;
+}
+.services-col img{
+	width: 80px;
+	max-width: 100%;
+}
+.col-wrapper::after{
+	clear: both;
+	display: table;
+	content: "";
+}
+/*
+===========
+About Us Section
+========
+*/
+.aboutus{
+	padding: 100px 0;
+	text-align: center;
+	background-image: url(img/about.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	color: #fff;
+}
+.aboutus-content{
+	font-weight: bold;
+	width: 80%;
+	margin: auto;
+	background-color: rgba(0,0,0,0.1);
+	margin-top: 30px;
+	font-size: 1.1em; 
+}
+.about-btn{
+	background: rgba(0,0,0,0.01);
+	padding: 10px 15px 10px 15px;
+	margin-top: 30px;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	outline: 1px solid yellow;
+
+}
+/*
+==============
+ Team Section
+ =============
+ */
+ .team{
+ 	padding-top: 100px;
+ 	padding-bottom: 100px;
+ 	background-color: hsl(0, 0%, 95%);
+ 	width: 100%;
+ 	text-align: center;
+
+ }
+ .team-wrapper{
+ 	padding-top: 50px;
+    width: 90%;
+    margin: auto;
+ }
+ .col-team{
+ 	width: 33.33%;
+ 	float: left;
+ 	padding: 10px 30px 10px 30px;
+ }
+
+ .col-team img{
+ 	width: 80px;
+ 	max-height:  100%;
+ 	padding-bottom: 5px;
+ }
+ .tcol{
+ 	max-height: 170px;
+ 	max-width: 200px;
+ 	border: 1px solid rgba(0,0,0,0.05);
+ 	box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.05);
+ 	padding:10px;
+ }
+ .team-wrapper::after{
+ 	clear: both;
+ 	content: "";
+ 	display: table;
+ }
+ /*
+ ===========
+ Contact
+ ===========
+ */
+ .contact{
+ 	padding-top: 90px;
+ 	width: 100%;
+ 	background-color: rgba(0, 0%, 95%);
+ }
+ .cta{
+ 	background-color: yellow;
+ 	width: 100%;
+ 	padding: 30px 5px 30px 5px;
+ 	text-align: center;
+ }
+ .cta-col{
+ 	width: 33.33%;
+ 	float: left;
+ }
+ .cta-col h3{
+ 	display: inline;
+ }
+ .cta::after{
+ 	clear: both;
+ 	content: "";
+ 	display: table; 
+ }
+ /*
+ ==============
+ Contact Main
+ ==============
+ */
+ .contactinfo{
+ 	width: 100%;
+ 	padding: 30px 5px 30px 5px;
+ 	text-align: center;
+ 	background-color: #eee;
+ }
+ .contactinfo::after{
+ 	clear: both;
+ 	content: "";
+ 	display: table;
+ }
+ .contactinfo-col1{
+ 	width: 35%;
+ 	float: left;
+ 	text-align: center; 
+ 	padding: 30px 5px 30px 5px;
+ }
+ .contactinfo-col2{
+ 	width: 65%;
+ 	float: left;
+ 	padding: 30px 5px 30px 5px;
+ 	padding-right: 10%;
+ }
+ .social-icons{
+ 	padding: 15px;
+ 	border: 1px dotted black; 
+ }
+ .fb{
+ 	background: #3a589b;
+ 	color: #fff;
+ }
+ .gp{
+ 	background: #d6492f;
+ 	color: #fff;
+ }
+ .tw{
+ 	background: #32ccfe;
+ 	color: #fff;
+ }
+.ln{
+	background: #007bb6;
+	color: #fff;
+}
+.form-col{
+	float: left;
+	width: 48%;
+	margin-right: 2%;
+	text-align: left;
+}
+.msg{
+	width: 100%;
+	height: 250px;
+	border: none;
+	outline: none; 
+}
+.label{
+	text-align: left;
+}
+.fname, .femail{
+	width: 100%;
+	height: 35px;
+	padding: 0px 5px 0px 5px;
+	background-color: #fff;
+	border: none;
+	outline: none;
+}
+.sendbtn{
+	background-color: yellow;
+	border: none;
+	outline: 1px solid black;
+	padding:10px 30px 10px 30px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+/*
+=========
+footer section
+========
+*/
+.footer{
+	background-color: #1b181f;
+	color: #eee;
+	width: 100%;
+	padding: 50px 10px 50px 10px;
+	}
+.footer::after{
+	clear: both;
+	content: "";
+	display: table;
+}
+.footer h2{
+color: #fff;
+margin-bottom: 30px;
+}
+.footer-col{
+	width: 33.33%;
+	float: left;
+	padding: 5px 10px 5px 10px;
+
+}
+
+/*
+==========
+CSS MEDIA QUERIES
+==========
+*/
+@media screen and (max-width: 500px){
+	.services-col{
+		width: 100%;
+		padding-top: 100px;
+	}
+	.col-team{
+		width: 100%;
+		padding-top: 100px;
+
+	}
+	.cta-col{
+		width: 100%;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	.contactinfo-col1{
+		width: 100%;
+	}
+	.contactinfo-col2{
+		width: 100%;
+		padding-right: 0px;
+	}
+	.form-col{
+		width: 100%;
+	}
+	.footer-col{
+		width: 100%;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.footer-col h2{
+		text-align: center;
+	}
+}
